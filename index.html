@@ -1,0 +1,79 @@
+<!-- ===== index.html ===== -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Дом для животных</title>
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<header>
+<nav>
+<h1>Дом для животных</h1>
+<ul>
+<li><a href="#home">Главная</a></li>
+<li><a href="#about">О нас</a></li>
+<li><a href="#pets">Животные</a></li>
+<li><a href="#help">Как помочь</a></li>
+<li><a href="#contact">Контакты</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section id="home" class="hero">
+<h2>Подари дом — спаси жизнь</h2>
+<p>Помоги животным найти любящую семью. Усынови, поддержи или стань волонтёром!</p>
+<button onclick="scrollToSection('pets')">Посмотреть животных</button>
+</section>
+
+
+<section id="about">
+<h2>О нас</h2>
+<p>Мы — волонтёрский приют, который помогает бездомным животным обрести заботу, лечение и новый дом.</p>
+</section>
+
+
+<section id="pets">
+<h2>Наши подопечные</h2>
+<div class="cards">
+<div class="card">
+<img src="images/dog1.jpg" alt="Собака Ричи">
+<h3>Ричи</h3>
+<p>Дружелюбный, 2 года. Ладит с детьми и другими собаками.</p>
+</div>
+<div class="card">
+<img src="images/cat1.jpg" alt="Кошка Луна">
+<h3>Луна</h3>
+<p>Нежная кошка, 1 год. Любит ласку и спокойную атмосферу.</p>
+</div>
+</div>
+</section>
+
+
+<section id="help">
+<h2>Как помочь</h2>
+<ul>
+<li>Усыновить питомца</li>
+<li>Сделать пожертвование</li>
+<li>Стать волонтёром</li>
+</ul>
+</section>
+
+
+<section id="contact">
+<h2>Контакты</h2>
+<p>Email: homeforpets@example.com</p>
+<p>Телефон: +380 00 000 00 00</p>
+</section>
+
+
+<footer>
+<p>&copy; 2025 Дом для животных | Все права защищены</p>
+</footer>
+
+
+<script src="JS/main.js"></script>
+</body>
+</html>
